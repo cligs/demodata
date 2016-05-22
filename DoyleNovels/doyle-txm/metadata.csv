@@ -1,0 +1,13 @@
+id,idno,author,title,year,genre,subgenre,detective,horror,historical,adventure,narration,decade
+StudyScarlet,acd001,Doyle,StudyScarlet,1887,novel,detective,yes,no,no,no,homodiegetic,1880s
+SignFour,acd003,Doyle,SignFour,1890,novel,detective,yes,no,no,no,homodiegetic,1890s
+ValleyFear,acd011,Doyle,ValleyFear,1915,novel,detective,yes,no,no,no,homodiegetic,1910s
+HoundBaskervilles,acd002,Doyle,HoundBaskervilles,1902,novel,detective,yes,no,no,no,homodiegetic,1900s
+WhiteCompany,acd004,Doyle,WhiteCompany,1891,novel,historical,no,no,yes,no,heterodiegetic,1890s
+Refugees,acd005,Doyle,Refugees,1893,novel,historical,no,no,yes,no,heterodiegetic,1890s
+RafflesHaw,acd008,Doyle,RafflesHaw,1891,novel,horror,no,yes,no,no,homodiegetic,1890s
+Parasite,acd009,Doyle,Parasite,1894,novella,horror,no,yes,no,no,homodiegetic,1890s
+MysteryCloomber,acd007,Doyle,MysteryCloomber,1889,novel,other,no,no,no,no,homodiegetic,1880s
+FirmGirdlestone,acd006,Doyle,FirmGirdlestone,1890,novel,other,no,no,no,no,heterodiegetic,1890s
+LostWorld,acd010,Doyle,LostWorld,1912,novel,adventure,no,no,no,yes,homodiegetic,1910s
+PoisonBelt,acd012,Doyle,PoisonBelt,1913,novella,adventure,no,no,no,yes,homodiegetic,1910s

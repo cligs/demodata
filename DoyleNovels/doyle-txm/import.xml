@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<import author="christof"
+        date="22-05-16"
+        desc="&lt;pre&gt;&lt;br/&gt;- doyletxm&lt;br/&gt;- christof&lt;br/&gt;- 22-05-16&lt;/pre&gt;"
+        name="DOYLE"
+        rootDir="/media/christof/data/repos/cligs/demodata/DoyleNovels/doyle-txm"
+        script="quickLoader.groovy"
+        version="0.7">
+   <linkGrp type="align"/>
+   <corpora>
+      <corpus annotate="true"
+              cqpid="DOYLE1463909078709"
+              desc="&lt;pre&gt;&lt;br/&gt;- doyletxm&lt;br/&gt;- christof&lt;br/&gt;- 22-05-16&lt;/pre&gt;"
+              encoding="UTF-8"
+              font=""
+              lang="en"
+              name="DOYLE">
+         <tokenizer onlyThoseTests="false">
+            <param name="whitespaces">[\p{Z}\p{C}]+</param>
+            <param name="regPunct">[\p{Ps}\p{Pe}\p{Pi}\p{Pf}\p{Po}\p{S}]</param>
+            <param name="punct_strong">[.!?]+|\.\.|\.\.\.|…|\|</param>
+            <param name="regElision">['‘’]</param>
+         </tokenizer>
+         <xslt xsl=""/>
+         <pattributes/>
+         <sattributes/>
+         <biblios/>
+         <uis/>
+         <editions default="default">
+       	    <edition build_edition="true"
+                     mode="groovy"
+                     name="default"
+                     page_break_tag="pb"
+                     script="pager.groovy"
+                     words_per_page="500"/>
+         </editions>
+         <texts/>
+         <queries/>
+         <preBuild/>
+      </corpus>
+   </corpora>
+</import>
